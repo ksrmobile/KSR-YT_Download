@@ -59,7 +59,7 @@ async def process_youtube_link(client, message):
          # Delete downloading and uploading text messages
         await app.delete_messages(message.chat.id, [downloading_msg.message_id, uploading_msg.message_id])
     except Exception as e:
-        error_text = 'OWNER : @LISA_FAN_LK 💕\nFor the List of Telegram Bots'
+        error_text = 'OWNER : @ksr_369 💕\Visit my Channel @seatv24'
         await message.reply_text(error_text)
         
 # Start the bot
